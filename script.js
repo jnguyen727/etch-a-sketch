@@ -5,6 +5,17 @@ const bigContainer = document.createElement('div');
 bigContainer.style.display = 'flex';
 bigContainer.style.flexDirection = 'column';
 
+const button = document.createElement('button');
+button.textContent = 'hey';
+button.addEventListener('click', () => {
+    let newDimension = prompt("What dimensions do you want the grid to be?")
+    dimensions = newDimension;
+
+    
+    
+})
+document.body.appendChild(button);
+
 document.body.appendChild(bigContainer);
 
 for (let i = 0; i < dimensions; i++) {
@@ -28,4 +39,7 @@ for (let i = 0; i < dimensions; i++) {
 
     bigContainer.appendChild(containerDiv);
 }
+
+
+
 
