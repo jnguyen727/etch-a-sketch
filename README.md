@@ -1,1 +1,1 @@
-# etch-a-sketch
+Use DOM skills to create an etch-a-sketch. I will learn how to tackle harder projects and gain more experience with creating projects.
