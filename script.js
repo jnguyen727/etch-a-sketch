@@ -2,12 +2,16 @@ let dimensions = 16;
 
 // Create header element
 const header = document.createElement('header');
+header.style.textAlign = 'center';
 document.body.appendChild(header);
 
 // Create button and append it to the header
 const button = document.createElement('button');
-button.textContent = 'hey';
+
+button.textContent = 'Change grid dimensions.';
+
 header.appendChild(button);
+
 
 // Create grid container
 const bigContainer = document.createElement('div');
@@ -58,3 +62,4 @@ button.addEventListener('click', () => {
     // Recreate the grid
     createGrid();
 });
+
